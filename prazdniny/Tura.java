@@ -101,8 +101,7 @@ public class Tura {
             for (int j = 0; j < c[i].length; j++) {
                 c[cesta[i]][j] = Double.POSITIVE_INFINITY;
            }
-       }
-        System.out.println(Arrays.deepToString(c));
+        }
         int[] cesta2 = vratCestu(0, 6, c);
         System.out.println(Arrays.toString(cesta2));
     }
